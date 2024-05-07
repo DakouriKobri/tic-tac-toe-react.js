@@ -1,5 +1,5 @@
 function App() {
-  return <h1>Tic-Tac-Toe with React.js</h1>;
+  return <h2 style={{ color: 'brown' }}>Coming...</h2>;
 }
 
 export default App;
