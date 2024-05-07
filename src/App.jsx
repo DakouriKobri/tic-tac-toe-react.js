@@ -1,3 +1,5 @@
+// Project Imports
+import GameBoard from './components/GameBoard';
 import Players from './components/Players';
 
 function App() {
@@ -8,10 +10,9 @@ function App() {
           <Players initialName="Player 1" symbol="X" />
           <Players initialName="Player 2" symbol="O" />
         </ol>
-        <div>Game Board</div>
-      </div>
 
-      <div>Game Log</div>
+        <GameBoard />
+      </div>
     </main>
   );
 }
