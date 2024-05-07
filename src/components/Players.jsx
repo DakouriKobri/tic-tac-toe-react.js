@@ -1,7 +1,7 @@
 // NPM Packages
 import { useState } from 'react';
 
-export default function Players({ initialName, symbol }) {
+export default function Players({ initialName, symbol, isActive }) {
   const [playerName, setPlayerName] = useState(initialName);
   const [isEditing, setIsEditing] = useState(false);
 
@@ -23,7 +23,7 @@ export default function Players({ initialName, symbol }) {
   }
 
   return (
-    <li>
+    <li className={isActive ? 'active' : undefined}>
       <span className="player">
         {editablePlayerName}
         <span className="player-symbol">{symbol}</span>
