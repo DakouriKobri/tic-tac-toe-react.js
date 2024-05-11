@@ -12,11 +12,11 @@ export default function Players({
 
   function handleEditClick() {
     setIsEditing((editing) => !editing);
+    if (isEditing) onChangeName(symbol, playerName);
   }
 
   function handleChange(event) {
     setPlayerName(event.target.value);
-    if (isEditing) onChangeName(symbol, playerName);
   }
 
   let editablePlayerName = <span className="player-name">{playerName}</span>;
