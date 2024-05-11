@@ -16,6 +16,11 @@ Then run with the following command:
   npm run dev
 ```
 
+## Screenshots
+
+![Tic-Tac-Toe project's screenshot 1](./screenshots/tic-tac-toe-view-1.png)
+![Tic-Tac-Toe project's screenshot 2](./screenshots/tic-tac-toe-view-2.png)
+
 ## Observations
 
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
